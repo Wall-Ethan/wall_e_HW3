@@ -92,17 +92,22 @@ article p {
     margin: 0 auto;
 }
 
+article h2 {
+    text-align: right;
+}
+
 .sprite {
     width: 150px;
     height: 150px;
+
+    background-image: url('../images/dndsprites.jpg');
 }
 
-#barbarian_logo { background-position: -150px 0; }
-#bard_logo { background-position: -300px 0; }
-#cleric_logo { background-position: -450px 0; }
-#fighter_logo { background-position: -600px 0; }
-#rouge_logo { background-position: -750px 0; }
-#wizard_logo { background-position: -900px 0;}
+#bard { background-position: -150px 0; }
+#cleric { background-position: -300px 0; }
+#fighter { background-position: -450px 0; }
+#rouge { background-position: -600px 0; }
+#Wizard { background-position: -750px 0;}
 
 .sprite:hover { background-position-y: -150px !important; }
 /* footer rules here */
@@ -130,7 +135,7 @@ footer {
     top: 0;
     left: 0;
 
-    background-color: rgba(83, 5, 5, 0.85);
+    background-color: rgba(72, 6, 255, 0.85);
     background-image: url('../images/barbarian.jpg');
     background-repeat: no-repeat;
 
@@ -173,8 +178,9 @@ footer {
 
 .lb_text {
     line-height: 1.6 !important;
-    margin-left: 0;
+    margin-right: 5;
     padding-top: 2em;
+    text-align: right;
 }
 
 /* turn the lightbox on using the :target pseudo selector */
